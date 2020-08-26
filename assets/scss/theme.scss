@@ -62,7 +62,7 @@
    border-radius: 7.5px;
    .title {
       font-size: 20px;
-      margin-bottom: 15px;
+      margin:7px 0 !important
    }
    .badge {
       font-size: 14px;
@@ -190,8 +190,32 @@
    left: 0;
    width: 100%;
    height: 100%;
-   background-color: #59b3e47a;
+   // background-color: #ffffff;
    z-index: 1;
+   
+   &::before{
+      content: '';
+      background-color: #ffffff;
+      /* z-index: 1; */
+      position: fixed;
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 100%;
+      opacity: 0.6;
+   }
+   .loader-content {
+      position: absolute;
+      width: 100%;
+      top: 40%;
+      span{
+         width: 100%;
+         text-align: center;
+         float: left;
+         color: $red;
+         font-size: 20px;
+      }
+  }
 }
 
 // Animation
@@ -204,3 +228,22 @@
      opacity: 0;
    }
  }
+ .back-btn{
+    position: absolute;
+    top: 20px;
+    left: 0;
+    color: $blue;
+    font-size: 20px;
+    i{
+      color: $blue;
+      font-size: 28px;
+      position: relative;
+      top: 6px;
+    }
+ }
+ 
+@media only screen and (max-width: 767px) {
+   .btn-adjust{
+      width: 100% ;
+   }
+}
