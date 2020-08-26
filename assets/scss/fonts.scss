@@ -1,0 +1,47 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import "variable";
+@font-face{
+   font-family: 'Nunito-light';
+   src: url('../fonts/nunito/Nunito-Light.ttf');
+   font-weight: 200;
+}
+@font-face{
+   font-family: 'Nunito-light-italic';
+   src: url('../fonts/nunito/Nunito-LightItalic.ttf');
+   font-weight: 200;
+}
+@font-face{
+   font-family: 'Nunito-regular';
+   src: url('../fonts/nunito/Nunito-Regular.ttf');
+   font-weight: 300;
+}
+@font-face{
+   font-family: 'Nunito-regular-italic';
+   src: url('../fonts/nunito/Nunito-Italic.ttf');
+   font-weight: 300;
+}
+@font-face{
+   font-family: 'Nunito-semiBold';
+   src: url('../fonts/nunito/Nunito-SemiBold.ttf');
+   font-weight: 400;
+}
+@font-face{
+   font-family: 'Nunito-semiBold-italic';
+   src: url('../fonts/nunito/Nunito-SemiBoldItalic.ttf');
+   font-weight: 400;
+}
+@font-face{
+   font-family: 'Nunito-bold';
+   src: url('../fonts/nunito/Nunito-Bold.ttf');
+   font-weight: 600;
+}
+@font-face{
+   font-family: 'Nunito-bold-italic';
+   src: url('../fonts/nunito/Nunito-BoldItalic.ttf');
+   font-weight: 600;
+}
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
